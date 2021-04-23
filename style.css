@@ -3,7 +3,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: bisque;
+    /* background-color: bisque; */
+    margin-left: -10px;
 }
 
 li a:link {
@@ -51,6 +52,51 @@ footer ul {
     text-align: center;
 }
 
-.material-icons {
-    padding-bottom: 0px;
+.app-icon {
+    line-height: 20px;
+}
+
+.main-body {
+    /* position: absolute; */
+    /* padding: 200px 200px; */
+    /* width: 100%;
+    height: 80%; */
+    
+    /* border: 3px solid black; */
+}
+
+.g-logo {
+    display: block;
+    /* position: absolute; */
+    margin: auto;
+    margin-top: 5%;
+}
+
+.search-form {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 500px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 50px;
+    
+}
+
+.search-buttons {
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.google-search {
+    background-color: #F4F4F4;
+    padding: 10px 15px 10px 15px;
+    margin-right: 20px;
+    border: none;
+}
+
+.lucky-search {
+    background-color: #F4F4F4;
+    padding: 10px 15px 10px 15px;
+    border: none;
 }
