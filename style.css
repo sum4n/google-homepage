@@ -1,13 +1,56 @@
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: bisque;
 }
 
-a:link {
+li a:link {
     text-decoration: none;
     color: black;
 }
 
-a:hover {
+li a:hover {
     text-decoration: underline;
     color: black;
+}
+
+/* .nav-left {
+    float: left;
+} */
+
+.nav-right {
+    float: right;
+}
+
+li {
+    display: block;
+    text-align: center;
+    padding: 15px 16px 15px 10px;
+    float: left;
+    font-size: x-small;
+}
+
+
+footer ul {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(228, 227, 227);  
+}
+
+#signIn {
+    background-color:#1A73E8;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 20px;
+    border: none;
+    font-size: x-small;
+    font-weight: bold;
+    text-align: center;
+}
+
+.material-icons {
+    padding-bottom: 0px;
 }
