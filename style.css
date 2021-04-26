@@ -9,12 +9,17 @@ ul {
 
 li a:link {
     text-decoration: none;
-    color: black;
+    color: rgb(82, 82, 82);
 }
 
 li a:hover {
     text-decoration: underline;
-    color: black;
+    color: rgb(82, 82, 82);
+}
+
+li a:visited {
+    text-decoration: none;
+    color: rgb(82, 82, 82);
 }
 
 /* .nav-left {
@@ -44,7 +49,7 @@ footer ul {
 #signIn {
     background-color:#1A73E8;
     color: white;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     padding: 8px 20px;
     border: none;
     font-size: x-small;
@@ -56,20 +61,11 @@ footer ul {
     line-height: 20px;
 }
 
-.main-body {
-    /* position: absolute; */
-    /* padding: 200px 200px; */
-    /* width: 100%;
-    height: 80%; */
-    
-    /* border: 3px solid black; */
-}
-
 .g-logo {
     display: block;
     /* position: absolute; */
     margin: auto;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .search-form {
@@ -78,13 +74,24 @@ footer ul {
     margin-top: 20px;
     width: 500px;
     height: 40px;
-    border: 2px solid black;
+    border: 1px solid #ccc;
     border-radius: 50px;
-    
+    padding: 0px 40px;
+    background-image: url('/img/search.svg');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+}
+
+.search-form:focus {
+    outline:none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search-form:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .search-buttons {
-    /* border: 1px solid black; */
     text-align: center;
 }
 
